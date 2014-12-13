@@ -4,6 +4,7 @@ class ViewController: UIViewController {
   
   var currentValue: Int = 0
   var targetValue: Int = 0
+  var difference: Int!
   
   @IBOutlet weak var targetLabel: UILabel!
   @IBOutlet weak var slider: UISlider!
@@ -19,7 +20,10 @@ class ViewController: UIViewController {
   }
     
   @IBAction func showAlert() {
-    let message = "The value of the slider is: \(currentValue)" + "\nThe target value is: \(targetValue)"
+    let difference = abs(targetValue - currentValue)
+    let points = 100 - difference
+    
+    let message = "The value of the slider is: \(currentValue)" + "\nThe target value is: \(targetValue)" + "\nThe difference is: \(difference)" + "\nYou scored \(points) points"
     let alert = UIAlertController(title: "Hello, world!", message: message, preferredStyle: .Alert)
     let action = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
     alert.addAction(action)
