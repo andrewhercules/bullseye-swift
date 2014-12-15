@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49CF52EF1A3F5CC600E69332 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 49CF52EE1A3F5CC600E69332 /* BullsEye.html */; };
 		49EF58DA1A3C7C5600ADB979 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EF58D91A3C7C5600ADB979 /* AppDelegate.swift */; };
 		49EF58DC1A3C7C5600ADB979 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EF58DB1A3C7C5600ADB979 /* ViewController.swift */; };
 		49EF58DF1A3C7C5600ADB979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EF58DD1A3C7C5600ADB979 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49CF52EE1A3F5CC600E69332 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		49EF58D41A3C7C5600ADB979 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49EF58D81A3C7C5600ADB979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49EF58D91A3C7C5600ADB979 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		49EF58D61A3C7C5600ADB979 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				49CF52EE1A3F5CC600E69332 /* BullsEye.html */,
 				49EF58D91A3C7C5600ADB979 /* AppDelegate.swift */,
 				49EF58DB1A3C7C5600ADB979 /* ViewController.swift */,
 				49EF58F91A3CC66500ADB979 /* AboutViewController.swift */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49EF58DF1A3C7C5600ADB979 /* Main.storyboard in Resources */,
+				49CF52EF1A3F5CC600E69332 /* BullsEye.html in Resources */,
 				49EF58E41A3C7C5600ADB979 /* LaunchScreen.xib in Resources */,
 				49EF58E11A3C7C5600ADB979 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +413,7 @@
 				49EF58F51A3C7C5600ADB979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49EF58F61A3C7C5600ADB979 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				49EF58F81A3C7C5600ADB979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
